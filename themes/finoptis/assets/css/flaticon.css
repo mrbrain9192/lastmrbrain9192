@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("https://www.cureandsecurellc.com/wp-content/themes/finoptis/assets/css/Flaticon.svg") format("svg");
+    src: url("themes/finoptis/assets/css/Flaticon.svg") format("svg");
   }
 }
 

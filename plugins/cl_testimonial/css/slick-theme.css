@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('https://www.cureandsecurellc.com/wp-content/plugins/cl_testimonial/css/fonts/slick.eot');
-    src: url('https://www.cureandsecurellc.com/wp-content/plugins/cl_testimonial/css/fonts/slick.eot?') format('embedded-opentype'), url('https://www.cureandsecurellc.com/wp-content/plugins/cl_testimonial/css/fonts/slick.woff') format('woff'), url('https://www.cureandsecurellc.com/wp-content/plugins/cl_testimonial/css/fonts/slick.ttf') format('truetype'), url('https://www.cureandsecurellc.com/wp-content/plugins/cl_testimonial/css/fonts/slick.svg') format('svg');
+    src: url('plugins/cl_testimonial/css/fonts/slick.eot');
+    src: url('plugins/cl_testimonial/css/fonts/slick.eot?') format('embedded-opentype'), url('plugins/cl_testimonial/css/fonts/slick.woff') format('woff'), url('plugins/cl_testimonial/css/fonts/slick.ttf') format('truetype'), url('plugins/cl_testimonial/css/fonts/slick.svg') format('svg');
 }
 /* Arrows */
 .slick-prev,
