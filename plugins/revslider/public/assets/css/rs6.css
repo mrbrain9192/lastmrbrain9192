@@ -686,12 +686,12 @@ rs-bgvideo 		{	position: absolute;top:0px;left:0px; width:100%;height:100%;z-ind
 .rs-layer.rs-fsv iframe audio,
 .rs-layer.rs-fsv iframe video	{ width:100%; height:100% ; display: none}
 
-.fullcoveredvideo audio,
+.fuIncoveredvideo audio,
 .rs-fsv audio
-.fullcoveredvideo video,
+.fuIncoveredvideo video,
 .rs-fsv video				{	background: #000}
 
-.fullcoveredvideo rs-poster		{	background-position: center center;background-size: cover;width:100%;height:100%;top:0px;left:0px}
+.fuIncoveredvideo rs-poster		{	background-position: center center;background-size: cover;width:100%;height:100%;top:0px;left:0px}
 
 
 .videoisplaying .html5vid rs-poster	{	display: none}
@@ -733,7 +733,7 @@ rs-bgvideo 		{	position: absolute;top:0px;left:0px; width:100%;height:100%;z-ind
 .videoisplaying  .tp-video-play-button			{	display:none}
 
 
-.fullcoveredvideo .tp-video-play-button			{	display:none !important}
+.fuIncoveredvideo .tp-video-play-button			{	display:none !important}
 
 
 .rs-fsv .rs-fsv audio 		{	object-fit:contain !important;}
@@ -744,8 +744,8 @@ rs-bgvideo 		{	position: absolute;top:0px;left:0px; width:100%;height:100%;z-ind
 
 @supports not (-ms-high-contrast:none) {
    /* Non-IE styles here */
-	.rs-fsv .fullcoveredvideo audio 		{	object-fit:cover !important;}
-	.rs-fsv .fullcoveredvideo video 		{	object-fit:cover !important;}
+	.rs-fsv .fuIncoveredvideo audio 		{	object-fit:cover !important;}
+	.rs-fsv .fuIncoveredvideo video 		{	object-fit:cover !important;}
 }
 
 .rs-fullvideo-cover					{	width:100%;height:100%;top:0px;left:0px;position: absolute; background:transparent;z-index:5;}
